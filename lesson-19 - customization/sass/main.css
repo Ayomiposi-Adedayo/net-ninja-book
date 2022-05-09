@@ -12188,4 +12188,32 @@ fieldset:disabled .btn {
 .mg-comments {
   margin-bottom: 1rem;
 }
+
+@media screen and (min-width: 280px) and (max-width: 374px) {
+  body {
+    margin-left: 3%;
+  }
+  .nav-bar-e {
+    max-width: 80%;
+    font-size: 1.1rem;
+    margin-right: 1%;
+  }
+  .nav-border {
+    border-color: #e0080800 !important;
+    padding: 0% !important;
+    margin-left: auto !important;
+  }
+}
+
+@media screen and (min-width: 375px) and (max-width: 429px) {
+  body {
+    margin-left: 3%;
+  }
+}
+
+@media screen and (min-width: 430px) and (max-width: 767px) {
+  body {
+    margin-left: 2%;
+  }
+}
 /*# sourceMappingURL=main.css.map */
