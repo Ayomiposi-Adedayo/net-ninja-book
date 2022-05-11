@@ -13,6 +13,12 @@ $custom-theme-colors: (
   "altdark": #522192,
   );
  
+  
+  html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+  background-color: #fbf5e5;
+  }
 
 // merge the maps to add new theme colors
 $theme-colors: map-merge($custom-theme-colors, $theme-colors);
@@ -24,11 +30,12 @@ $theme-colors: map-merge($custom-theme-colors, $theme-colors);
   margin-bottom: 1rem;
 }
 
-@media screen and (min-width: 280px) and (max-width: 374px) {
-  body {
-    margin-left: 3%;
-  }
 
+// @media screen and (min-width: 280px) and (max-width: 374px) {
+//   body {
+//     margin-left: 3%;
+//   }
+// }
   .nav-bar-e {
     max-width: 80%;
     font-size: 1.1rem;
@@ -41,15 +48,15 @@ $theme-colors: map-merge($custom-theme-colors, $theme-colors);
     margin-left: auto !important;
   }
   
-}
 
-@media screen and (min-width: 375px) and (max-width: 429px) {
-  body {
-    margin-left: 3%;
-  }
+
+// @media screen and (min-width: 375px) and (max-width: 429px) {
+//   body {
+//     margin-left: 3%;
+//   }
+// }
 
   
-}
 
 
 
