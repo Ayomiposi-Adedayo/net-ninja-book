@@ -1,7 +1,6 @@
 html, body {
   max-width: 100%;
   overflow-x: hidden;
-  background-color: #fbf5e5;
 }
 
 /*!
@@ -12207,13 +12206,28 @@ fieldset:disabled .btn {
   margin-left: auto !important;
 }
 
-@media screen and (min-width: 430px) and (max-width: 767px) {
-  body {
-    margin-left: 2%;
+@media screen and (max-width: 768px) {
+  .p-main1 {
+    background-color: #fbf5e563;
   }
 }
 
+.rounded-3 {
+  border-radius: 2rem !important;
+}
+
 .bg-header-main {
-  background-color: #e4c274c8;
+  background-image: url(/bg-5-5.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+a.navbar-brand.nav-bar-e {
+  color: #c29938 !important;
+}
+
+div.container-xxl > div > ul > li > a:hover {
+  text-decoration: underline;
 }
 /*# sourceMappingURL=main.css.map */
