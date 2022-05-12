@@ -12206,9 +12206,13 @@ fieldset:disabled .btn {
   margin-left: auto !important;
 }
 
+.bgblue {
+  padding-bottom: 8rem !important;
+}
+
 @media screen and (max-width: 768px) {
-  .p-main1 {
-    background-color: #fbf5e563;
+  .bgblue {
+    padding-bottom: 6rem !important;
   }
 }
 
@@ -12233,5 +12237,9 @@ div.container-xxl > div > ul > li > a:hover {
 
 .btn-light:hover {
   background-color: #c29938;
+}
+
+.row-bg-main {
+  background-color: #fbf5e595;
 }
 /*# sourceMappingURL=main.css.map */

@@ -47,10 +47,15 @@ $theme-colors: map-merge($custom-theme-colors, $theme-colors);
     padding: 0% !important;
     margin-left: auto !important;
   }
+  
+.bgblue {
+  padding-bottom: 8rem !important;
+}
+
   @media screen and (max-width: 768px) {
-  .p-main1 {
-    background-color: #fbf5e563;
-  }
+    .bgblue {
+  padding-bottom: 6rem !important;
+}
   }
 
 // @media screen and (min-width: 375px) and (max-width: 429px) {
@@ -90,4 +95,7 @@ div.container-xxl>div>ul>li>a:hover {
 } 
 .btn-light:hover {
   background-color: #c29938;
+}
+.row-bg-main {
+  background-color: #fbf5e595;
 }
